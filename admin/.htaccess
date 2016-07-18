@@ -1,0 +1,4 @@
+AuthName "Page d'administration"
+AuthType Basic
+AuthUserFile "C:\wamp\www\HAKIGRAPGHICS\admin\.htpasswd"
+Require valid-user

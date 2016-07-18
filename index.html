@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="fr"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>hakigraphics</title>
+    <meta name="description" content="Graphiste, Développeur Front">
+    <meta name="author" content="Elodie HAK">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <!-- Script loadPage -->
+    <script>
+        function loadSubPage(nom,arg='') {
+            var liens = document.querySelectorAll("#menu_graph a");
+            for (var i = 0; i < liens.length; i++) {
+                liens[i].className="";
+            }
+            document.getElementById(nom).className="boutonactif";
+            xhttp=new XMLHttpRequest();
+            xhttp.open("GET", "content/"+nom+".php"+arg, false);
+            xhttp.send();
+            document.getElementById("subcontent").innerHTML = xhttp.responseText;
+        }
+
+        window.onload=function() {loadSubPage("illustrations");}
+
+
+        function loadPage(nom,arg='') {
+            var liens = document.querySelectorAll("#menu_principal a");
+            for (var i = 0; i < liens.length; i++) {
+                liens[i].className="";
+            }
+            if (document.getElementById(nom)) {
+                document.getElementById(nom).className="boutonactif";
+            }
+            xhttp=new XMLHttpRequest();
+            xhttp.open("GET", "content/"+nom+".php"+arg, false);
+            xhttp.send();
+            document.getElementById("content").innerHTML = xhttp.responseText;
+        }
+
+        window.onload=function() {loadPage("accueil");}
+
+        /*-- Slider --*/
+        function slide(i) {
+            fond=document.querySelector('#fond');
+            banner=document.querySelector('#banner');
+            banner.className="inactive";
+            fond.style="background-image:url('img/caroussel/img"+i+".jpg');position:relative;height:500px;";
+
+            setTimeout(function() {
+                banner.style="background-image:url('img/caroussel/img"+i+".jpg');position:relative;height:500px;";
+                banner.className="active";},1000);
+        }
+        currentslide=4;
+        function nextSlide(){
+            if (currentslide==4){
+                currentslide=1;
+            }
+            else{
+                currentslide++;
+            }
+            slide(currentslide);
+        }
+        function prevSlide(){
+            if (currentslide==1){
+                currentslide=4;
+            }
+            else{
+                currentslide--;
+            }
+            slide(currentslide);
+        }
+
+        setInterval (nextSlide, 10000);
+    </script>
+
+</head>
+
+<!----------------------- Body ----------------------->
+<body>
+
+<!---------------------- Header ---------------------->
+<header class="active">
+
+    <div id="fond">
+        <div id="banner">
+            <img class="prev" onclick="prevSlide()" src="img/caroussel/slide1.png" alt="prev">
+            <img class="next" onclick="nextSlide()" src="img/caroussel/slide2.png" alt="next">
+        </div>
+
+    </div>
+
+
+    <!------- Logo ------->
+    <div id="logo">
+        <img src="img/logo.jpg" alt="logo">
+    </div>
+
+    <!------- Menu Principal ------->
+    <nav id="menu_principal">
+        <ul>
+
+            <li><a id='accueil'  onclick="loadPage('accueil');">ACCUEIL</a></li>
+            <li><a id="graph" onclick="loadPage('graph');">GRAPHISME</a></li>
+            <li><a id='dev' onclick="loadPage('dev');">DEVELOPPEMENT</a></li>
+            <li><a id='blog' onclick="loadPage('blog');">BLOG</a></li>
+            <li><a id='haki' onclick="loadPage('haki');">HAKI</a></li>
+            <li><a id='contact' onclick="loadPage('contact');">CONTACT</a></li>
+        </ul>
+    </nav>
+
+</header>
+<!-------------------- End Header ------------------->
+
+<!--------------------- Content --------------------->
+<div id="content">
+
+</div>
+<!------------------- End Content -----t------------->
+
+<!--------------------- Footer --------------------->
+<footer>
+
+    <ul id="menu_footer">
+
+        <li><a id='accueil'  onclick="loadPage('accueil');">Accueil</a></li>
+        <li><a id='contact' onclick="loadPage('contact');">Contact</a></li>
+
+        <!------- Icones ------->
+
+        <li class="icones_footer"><a href="http://hakiroji.tumblr.com/" target="_blank"><img src="img/social/tumblr.png"></a></li>
+
+        <li class="icones_footer"><a href="https://twitter.com/haki_derby?lang=fr" target="_blank"><img src="img/social/twitter.png"></a></li>
+
+        <li class="icones_footer"><a href="https://www.instagram.com/_haki_/" target="_blank"><img src="img/social/instagram.png"></a></li>
+
+        <li class="icones_footer"><a href="https://www.facebook.com/elodiehak" target="_blank"><img src="img/social/facebook.png"></a></li>
+
+    </ul>
+
+    <!------- Credits ------->
+
+    <div class="credits">
+        <h4>© Elodie HAK 2016</h4><br>
+        <h4>Tous droits réservés</h4>
+    </div>
+
+</footer>
+<!------------------- End Footer ------------------->
+
+</body>
+<!-------------------- End Body -------------------->
+</html>
