@@ -648,3 +648,8 @@ form{
 #cv h1{
     font-size: 20px;
 }
+
+#ingameplay{
+    text-align: center;
+    margin: auto;
+}

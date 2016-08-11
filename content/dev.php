@@ -18,7 +18,6 @@
         <ul>
 
             <li><a id='web'  onclick="loadSubPage('web');">Web</a></li>
-            <li><a id="mobile" onclick="loadSubPage('mobile');">Mobile</a></li>
 
         </ul>
     </nav>
