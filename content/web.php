@@ -14,7 +14,7 @@
 
     <div id="ingameplay">
 
-    <iframe src="https://github.com/ElodieHak/big-brain-tower"></iframe>
+    <iframe src="https://webcom-components.github.io/big-brain-tower/"></iframe>
 
     </div>
 

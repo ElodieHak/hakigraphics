@@ -649,7 +649,9 @@ form{
     font-size: 20px;
 }
 
-#ingameplay{
+#ingameplay iframe{
+    width: 800px;
+    height: 600px;
     text-align: center;
     margin: auto;
 }
