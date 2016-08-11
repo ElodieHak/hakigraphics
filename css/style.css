@@ -648,10 +648,14 @@ form{
 #cv h1{
     font-size: 20px;
 }
-
-#ingameplay iframe{
-    width: 800px;
-    height: 600px;
+#ingameplay{
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ingameplay iframe{
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+    margin: 20px auto 20px auto;
 }
