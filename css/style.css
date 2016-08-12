@@ -544,7 +544,7 @@ footer h4{
 }
 
 #menu_dev ul {
-    width: 250px;
+    width: 100px;
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -654,7 +654,7 @@ form{
     margin-right: auto;
 }
 #ingameplay iframe{
-    width: 1000px;
+    width: 840px;
     height: 700px;
     text-align: center;
     margin: 20px auto 20px auto;
