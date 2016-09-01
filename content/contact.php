@@ -6,7 +6,7 @@
 
         <h1>CONTACT</h1>
 
-        <h2>Si vous souhaitez me poser une question, collaborer, demander un devis... <a href="img/CV_pdf.pdf" > Vous le trouverez ici! </a></h2>
+        <h2>Si vous souhaitez me poser une question, collaborer, demander un devis... <a href="img/CV_pdf.pdf" > Vous trouverez mon contact ici! </a></h2>
 
     </div>
 
