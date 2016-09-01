@@ -465,6 +465,7 @@ footer h4{
 #subcontent{
     margin-bottom: 50px;
     height: auto;
+    width: 100%;
 }
 
 #subcontent h2, p{
@@ -481,20 +482,32 @@ footer h4{
 
 /* ----Graph SLIDESHOW---- */
 
+#slideshow{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #slideshow figure {
     position: relative;
     float: left;
-    margin: 10px 10px;
+    margin: 0px;
     z-index: 100;
-    width: 300px;
+    width: 400px;
 
     -webkit-transition: all 1s ease; 
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+
+#slideshow figure:hover {
+    transform: scale(0.98);
+    transition:0.7s;
+}
 #slideshow figure img {
-    width: 100%;
+    float: left;
+    margin: 0px;
 }
 #slideshow figcaption {
     font-family: 'Oswald', arial, sans-serif;
@@ -503,6 +516,12 @@ footer h4{
     color: white;
     background: #222222;
     margin: 0px;
+    padding: 0px;
+    width: 400px;
+    float: left;
+}
+
+#slideshow figcaption h2, p {
     padding: 10px;
 }
 
@@ -512,10 +531,11 @@ footer h4{
     outline: none;
     z-index: 200;
     margin: 100px;
-    -webkit-transform: scale(3.0); 
-    -moz-transform: scale(3.0);
-    -o-transform: scale(3.0);
-    transform: scale(3.0);
+    -webkit-transform: scale(2.0);
+    -moz-transform: scale(2.0);
+    -o-transform: scale(2.0);
+    transform: scale(2.0);
+
 }
 
 #slideshow figure:focus+span {

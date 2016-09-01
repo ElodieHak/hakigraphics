@@ -1,6 +1,6 @@
 <div id="cv">
     <div class="intro">
-        <h1><a href="img/CV_pdf.pdf" > Télécharger le CV en pdf </a></h1>
+        <h1><a href="img/CV_pdf.pdf" > Téléchargez le CV en pdf </a></h1>
     </div>
 </div>
 

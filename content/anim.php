@@ -1,47 +1,19 @@
 <!------- Contenu Animations ------->
-Page ANIM
 
-<div id="slideshow"> 
-    <figure tabindex="0"> 
-        <img src="img/graph_illustrations/Tavern1.jpg" alt="Demo" /> 
-        <figcaption><h2>Talion Wars</h2>
-            <p>Ceci un projet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi reprehenderit, ipsam, assumenda quaerat necessitatibus fugiat consequuntur aliquam odio dolor natus. Pariatur illo similique fugiat tempore inventore sequi a mollitia.</p></figcaption> 
-    </figure> 
-    <span></span> 
+<div id="slideshow">
 
     <figure tabindex="0"> 
-        <img src="img/graph_da/Meowrun1.jpg" alt="Demo" /> 
-        <figcaption><h2>Meow Run</h2>
-            <p>Ceci un projet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur illo similique fugiat tempore inventore sequi a mollitia.</p></figcaption>
-    </figure>
-    <span></span> 
+         <iframe width="400" height="315" src="https://www.youtube.com/embed/tbHaXe605X4" frameborder="0" allowfullscreen></iframe>
+        <figcaption><h2>Animation 2D/3D</h2>
+            <p>Cette vidéo regroupe différents plans ou séquences d'aniamtion 2D et 3D que j'ai réalisé lors de mes missions d'animatrice, entre 2008 et 2014</p>
+            </figure>
+    <span></span>
 
-    <figure tabindex="0"> 
-        <img src="img/graph_da/BBB1.png" alt="Demo" /> 
-        <figcaption><h2>Bigbang Battle</h2>
-            <p>Ceci un projet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi reprehenderit, ipsam, assumenda quaerat necessitatibus fugiat consequuntur aliquam odio dolor natus.</p></figcaption>
-    </figure> 
-    <span></span> 
-
-    <figure tabindex="0"> 
-        <img src="img/graph_illustrations/Tavern1.jpg" alt="Demo" /> 
-        <figcaption><h2>Talion Wars</h2>
-            <p>Ceci un projet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi reprehenderit, ipsam, assumenda quaerat necessitatibus fugiat consequuntur aliquam odio dolor natus. Pariatur illo similique fugiat tempore inventore sequi a mollitia.</p></figcaption> 
-    </figure> 
-    <span></span> 
-
-    <figure tabindex="0"> 
-        <img src="img/graph_da/Meowrun1.jpg" alt="Demo" /> 
-        <figcaption><h2>Meow Run</h2>
-            <p>Ceci un projet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur illo similique fugiat tempore inventore sequi a mollitia.</p></figcaption>
-    </figure>
-    <span></span> 
-
-    <figure tabindex="0"> 
-        <img src="img/graph_da/BBB1.png" alt="Demo" /> 
-        <figcaption><h2>Bigbang Battle</h2>
-            <p>Ceci un projet Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quasi reprehenderit, ipsam, assumenda quaerat necessitatibus fugiat consequuntur aliquam odio dolor natus.</p></figcaption>
-    </figure> 
-    <span></span> 
+    <figure tabindex="0">
+             <iframe width="400" height="315" src="https://www.youtube.com/embed/ywxEcnPkcGo" frameborder="0" allowfullscreen></iframe>
+            <figcaption><h2>Animation 2D/3D</h2>
+                <p>Exemples de mes animations de bébés sur le jeu Imagine Babies d'Ubisoft</p>
+                </figure>
+        <span></span>
 
 </div>
