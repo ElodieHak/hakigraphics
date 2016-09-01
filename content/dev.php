@@ -6,7 +6,7 @@
 
         <h1>DEVELOPPEMENT WEB ET MOBILE</h1>
 
-        <h2>Développeur web, je me spécialise dans le front end: interfaces, visuels, wordpress et...</h2>
+        <h2>Développeur web, je me spécialise dans le front end: interfaces, visuels, wordpress...</h2>
 
         <h3>depuis 2016</h3>
 
