@@ -5,5 +5,5 @@
 </div>
 
 <div class="cv">
-    <img src="img/CV.png" height= 700px alt="cv">
+    <img src="img/CV.jpg" height= 700px alt="cv">
 </div>
